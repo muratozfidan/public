@@ -72,6 +72,14 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": []
+		},
+		{
+			"techniqueID": "T1046",
+			"tactic": "discovery",
+			"color": "#756bb1",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
 		}
 	],
 	"gradient": {
