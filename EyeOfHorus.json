@@ -36,7 +36,7 @@
 		{
 			"techniqueID": "T1192",
 			"tactic": "initial-access",
-			"color": "#756bb1",
+			"color": "#9e9ac8",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
@@ -76,7 +76,23 @@
 		{
 			"techniqueID": "T1046",
 			"tactic": "discovery",
-			"color": "#756bb1",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1003",
+			"tactic": "credential-access",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1193",
+			"tactic": "initial-access",
+			"color": "#9e9ac8",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
