@@ -1,6 +1,6 @@
 {
 	"name": "EyeOfHorus",
-	"version": "2.2",
+	"version": "3.0",
 	"domain": "mitre-enterprise",
 	"description": "",
 	"filters": {
@@ -14,90 +14,13 @@
 		]
 	},
 	"sorting": 0,
-	"viewMode": 0,
+	"layout": {
+		"layout": "side",
+		"showID": false,
+		"showName": true
+	},
 	"hideDisabled": false,
-	"techniques": [
-		{
-			"techniqueID": "T1191",
-			"tactic": "defense-evasion",
-			"color": "#9e9ac8",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1191",
-			"tactic": "execution",
-			"color": "#9e9ac8",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1192",
-			"tactic": "initial-access",
-			"color": "#9e9ac8",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1078",
-			"tactic": "defense-evasion",
-			"color": "#dadaeb",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1078",
-			"tactic": "persistence",
-			"color": "#dadaeb",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1078",
-			"tactic": "privilege-escalation",
-			"color": "#dadaeb",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1078",
-			"tactic": "initial-access",
-			"color": "#dadaeb",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1046",
-			"tactic": "discovery",
-			"color": "#9e9ac8",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1003",
-			"tactic": "credential-access",
-			"color": "#dadaeb",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		},
-		{
-			"techniqueID": "T1193",
-			"tactic": "initial-access",
-			"color": "#9e9ac8",
-			"comment": "",
-			"enabled": true,
-			"metadata": []
-		}
-	],
+	"techniques": [],
 	"gradient": {
 		"colors": [
 			"#ff6666",
@@ -111,5 +34,6 @@
 	"metadata": [],
 	"showTacticRowBackground": false,
 	"tacticRowBackground": "#dddddd",
-	"selectTechniquesAcrossTactics": true
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": true
 }
